@@ -188,7 +188,8 @@
       }
       h1, h2, h3, h4, h5, h6 {
         margin: 12px 0 8px;
-        font-weight: bold;
+        // font-weight: bold;
+        font-weight: 600;
       }
       h1 {
         font-size: 18px;
@@ -207,16 +208,27 @@
         justify-content: center;
       }
       h2{
-        font-size: 18px;
+        color: rgb(0, 150, 136) !important;
+        margin: 1.5em 5px !important;
+        padding: 0.5em 1em !important;
+        font-size: 20px !important;
+        border-bottom: 1px solid rgb(238, 238, 238) !important;
+        text-align: center !important;
       }
       h3 {
-        font-size: 17px;
-        font-weight: 600;
+        color: rgb(0, 150, 136) !important;
+        margin: 1.5em 5px !important;
+        padding: 0.5em 1em !important;
+        font-size: 18px;
+        text-align: center !important;
       }
-      h4,h5{
-        font-size: 16px;
-        color: #666;
-        font-weight: 600;
+      h4, h5{
+        color: #000 !important;
+        margin: 20px 5px !important;
+        padding: 0 1em !important;
+        font-size: 18px;
+        margin-left: 0px !important;
+        padding-left: 0px !important;
       }
 
       h6 {
@@ -268,7 +280,7 @@
         list-style-type: decimal;
       }
       ul {
-        list-style-type: square;
+        list-style-type: disc;
         font-size: $def-font-size;
       }
       ul ul, ul ol, ol ul, ol ol {
@@ -385,18 +397,20 @@
         color: #585858;
         background: #f3f1f1;
         margin:0 3px;
-        padding:4px 6px;
+        padding: 1px 6px;
         white-space: pre-wrap;
         border-radius:2px;
         display: inline;
+        line-height: 100%;
         // border: 1px solid #e2e2e2 !important;
         span {
-          color: #c7254e;
+          color: #333;
           background: #f3f1f1;
           display: inline-block;
           padding: 0 2px;
           font-size: 14px;
           font-family: 'consolas', 'menlo', 'courier', 'monospace', 'Microsoft Yahei' !important;
+          // line-height: 100%;
         }
       }
       .prettyprint.code-in-text {
