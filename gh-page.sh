@@ -13,4 +13,4 @@ git add -A
 date_str=`date "+DATE: %m/%d/%Y%nTIME: %H:%M:%S"`
 git commit -m "build on $date_str"
 echo 'push remote github'
-git push -u git@github.com:ksky521/mpeditor.git master:gh-pages --force
+git push -u git@github.com:yanxi-me/mpeditor.git master:gh-pages --force
