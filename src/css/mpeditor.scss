@@ -16,7 +16,7 @@
     &_fr {
       float: right;
     }
-    &-toast{
+    &-toast {
       position: fixed;
       z-index: 5000;
       width: 100px;
@@ -34,47 +34,46 @@
         color: #fff;
         width: 50px;
         margin-bottom: 10px;
-
       }
-      p{
+      p {
         margin: 0 0 15px;
       }
     }
-    &-wrap{
+    &-wrap {
       // margin-top: $nav-height;
       @include clearfix();
     }
     // 导航条
-    &-nav{
-      &-wrap{
+    &-nav {
+      &-wrap {
         height: $nav-height;
         top: 0;
         left: 0;
         width: 100%;
         padding: 0;
         border: 0;
-        border-top: 1px solid rgba(128,128,128,0.1);
-        border-bottom: 1px solid rgba(128,128,128,0.1);
+        border-top: 1px solid rgba(128, 128, 128, 0.1);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.1);
         border-radius: 0;
         z-index: 20;
         background-color: #222;
         // box-shadow:0 1px 3px rgba(0, 0, 0, 0.065);
         @include clearfix();
       }
-      &-tools{
+      &-tools {
         list-style-type: none;
       }
-      &-text{
-        color:#fff;
+      &-text {
+        color: #fff;
         padding: 8px 11px;
-        span{
+        span {
           line-height: 24px;
         }
       }
-      &-select{
+      &-select {
         width: 180px;
         padding-right: 16px;
-        select{
+        select {
           border: 0;
           outline: 0;
           background-color: transparent;
@@ -93,10 +92,10 @@
           border-radius: 3px;
         }
       }
-      &-item{
-        float:left;
-        a{
-          height:24px;
+      &-item {
+        float: left;
+        a {
+          height: 24px;
           width: 24px;
           display: block;
           padding: 8px 11px;
@@ -105,7 +104,6 @@
           color: #fff;
           position: relative;
         }
-
       }
     }
 
@@ -141,27 +139,26 @@
     }
     //滚动条
     &-col::-webkit-scrollbar {
-      width: 9px
+      width: 9px;
     }
     &-col::-webkit-scrollbar-track {
-      background: rgba(102, 128, 153, .1)
+      background: rgba(102, 128, 153, 0.1);
     }
     &-col::-webkit-scrollbar-thumb:hover {
-      background: rgba(102, 128, 153, .5)
+      background: rgba(102, 128, 153, 0.5);
     }
     &-col::-webkit-scrollbar-thumb {
-      background: rgba(102, 128, 153, .2)
+      background: rgba(102, 128, 153, 0.2);
     }
     &-col::-webkit-scrollbar-thumb:window-inactive,
     &-col::-webkit-scrollbar-thumb:window-inactive {
-      background: rgba(102, 128, 153, .1)
+      background: rgba(102, 128, 153, 0.1);
     }
-
 
     &-preview {
       $def-color: #333;
       $def-link-color: #3194d0;
-      $warn-color: #E64340;
+      $warn-color: #e64340;
       $title-color: #000;
 
       $def-font-size: 16px;
@@ -171,9 +168,9 @@
       line-height: $def-line-height;
       color: $def-color;
       background-color: #fff;
-      .mpe-section-divider{
-        margin:0 !important;
-        padding:0 !important;
+      .mpe-section-divider {
+        margin: 0 !important;
+        padding: 0 !important;
       }
       p {
         font-size: $def-font-size;
@@ -182,11 +179,16 @@
         min-height: 0 !important;
         margin-bottom: 10px;
       }
-      a{
+      a {
         color: $def-link-color;
         text-decoration: none;
       }
-      h1, h2, h3, h4, h5, h6 {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         margin: 12px 0 8px;
         // font-weight: bold;
         font-weight: 600;
@@ -199,15 +201,15 @@
         border-bottom: solid 1px $title-color;
         color: $title-color;
         display: inline-block;
-        margin:12px auto;
-        padding: 0.5*$def-font-size 0 5px;
+        margin: 12px auto;
+        padding: 0.5 * $def-font-size 0 5px;
         text-align: center;
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
       }
-      h2{
+      h2 {
         color: rgb(0, 150, 136) !important;
         margin: 1.5em 5px !important;
         padding: 0.5em 1em !important;
@@ -222,7 +224,8 @@
         font-size: 18px;
         text-align: center !important;
       }
-      h4, h5{
+      h4,
+      h5 {
         color: #000 !important;
         margin: 20px 5px !important;
         padding: 0 1em !important;
@@ -236,39 +239,48 @@
         color: #777;
         font-weight: 600;
       }
-      blockquote, q {
+      blockquote,
+      q {
         border-left: 6px solid #b4b4b4;
         background-color: #f7f7f7;
         padding: 0.8em 1em;
         color: #777;
         quotes: none;
 
-        p{
-          margin:0;
+        p {
+          margin: 0;
           font-size: 14px;
           text-align: left !important;
         }
       }
 
-      blockquote::before, blockquote::after, q::before, q::after {
+      blockquote::before,
+      blockquote::after,
+      q::before,
+      q::after {
         content: none;
       }
-      del{
+      del {
         text-decoration: none;
       }
 
-
-      table, pre, dl, blockquote, q, ul, ol {
+      table,
+      pre,
+      dl,
+      blockquote,
+      q,
+      ul,
+      ol {
         margin: 16px 0;
       }
 
-      ul, ol {
+      ul,
+      ol {
         padding-left: 2em;
       }
       li {
         margin-bottom: 0.25em;
         font-size: $def-font-size;
-
       }
 
       li p {
@@ -276,28 +288,35 @@
         color: $def-color;
         margin: 0.5em 0 !important;
       }
-      ol{
+      ol {
         list-style-type: decimal;
       }
       ul {
         list-style-type: disc;
         font-size: $def-font-size;
       }
-      ul ul, ul ol, ol ul, ol ol {
+      ul ul,
+      ul ol,
+      ol ul,
+      ol ol {
         margin: 0;
         padding-left: 1em;
         list-style-type: circle;
       }
 
-      p.task-list-list.uncheck{
+      p.task-list-list.uncheck {
         color: #777;
       }
 
-      ol ol, ul ol {
+      ol ol,
+      ul ol {
         list-style-type: lower-roman;
       }
 
-      ul ul ol, ul ol ol, ol ul ol, ol ol ol {
+      ul ul ol,
+      ul ol ol,
+      ol ul ol,
+      ol ol ol {
         list-style-type: lower-alpha;
       }
 
@@ -333,33 +352,35 @@
 
       table tr {
         border: 0;
-        border-top: 1px solid #CCC;
+        border-top: 1px solid #ccc;
         background-color: white;
         margin: 0;
         padding: 0;
       }
 
       table tr:nth-child(2n) {
-        background-color: #F8F8F8;
+        background-color: #f8f8f8;
       }
 
-      table tr th, table tr td {
+      table tr th,
+      table tr td {
         font-size: $def-font-size;
-        border: 1px solid #CCC;
+        border: 1px solid #ccc;
         margin: 0;
         padding: 3px 8px;
       }
 
       table tr th {
         font-weight: bold;
-        background-color: #F0F0F0;
+        background-color: #f0f0f0;
       }
       pre.prettyprint {
         border-radius: 0;
         font-size: $def-font-size;
         background-color: #f1efee;
         line-height: 1.2em;
-        font-family: 'consolas', 'menlo', 'courier', 'monospace', 'Microsoft Yahei' !important;
+        font-family: "consolas", "menlo", "courier", "monospace",
+          "Microsoft Yahei" !important;
         overflow-y: auto;
       }
 
@@ -387,7 +408,8 @@
             span {
               font-size: 13px !important;
               line-height: 20px;
-              font-family: 'consolas', 'menlo', 'courier', 'monospace', 'Microsoft Yahei' !important;
+              font-family: "consolas", "menlo", "courier", "monospace",
+                "Microsoft Yahei" !important;
             }
           }
         }
@@ -396,10 +418,10 @@
       .code-in-text {
         color: #585858;
         background: #f3f1f1;
-        margin:0 3px;
+        margin: 0 3px;
         padding: 1px 6px;
         white-space: pre-wrap;
-        border-radius:2px;
+        border-radius: 2px;
         display: inline;
         line-height: 100%;
         // border: 1px solid #e2e2e2 !important;
@@ -409,25 +431,38 @@
           display: inline-block;
           padding: 0 2px;
           font-size: 14px;
-          font-family: 'consolas', 'menlo', 'courier', 'monospace', 'Microsoft Yahei' !important;
+          font-family: "consolas", "menlo", "courier", "monospace",
+            "Microsoft Yahei" !important;
           // line-height: 100%;
         }
       }
       .prettyprint.code-in-text {
         background: #f3f1f1;
-        font-family: 'consolas', 'menlo', 'courier', 'monospace', 'Microsoft Yahei' !important;
+        font-family: "consolas", "menlo", "courier", "monospace",
+          "Microsoft Yahei" !important;
       }
 
-      li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+      li.L0,
+      li.L1,
+      li.L2,
+      li.L3,
+      li.L4,
+      li.L5,
+      li.L6,
+      li.L7,
+      li.L8,
+      li.L9 {
         list-style-type: none !important;
       }
 
-      li.L1, li.L3, li.L5, li.L7, li.L9 {
+      li.L1,
+      li.L3,
+      li.L5,
+      li.L7,
+      li.L9 {
         list-style-type: none !important;
         background: transparent !important;
       }
-
-
     }
   }
 
@@ -441,9 +476,9 @@
 
     $tooltip-arrow-width: 5px;
     $tooltip-margin: 0;
-    $tooltip-arrow-color: #3CC51F;
+    $tooltip-arrow-color: #3cc51f;
 
-    &_top{
+    &_top {
       padding: $tooltip-arrow-width 0;
       margin-top: $tooltip-margin;
 
@@ -465,7 +500,8 @@
         left: 0;
         margin-top: -$tooltip-arrow-width;
         content: "";
-        border-width: $tooltip-arrow-width $tooltip-arrow-width $tooltip-arrow-width 0;
+        border-width: $tooltip-arrow-width $tooltip-arrow-width
+          $tooltip-arrow-width 0;
         border-right-color: $tooltip-arrow-color;
       }
     }
@@ -482,7 +518,7 @@
         border-bottom-color: $tooltip-arrow-color;
       }
     }
-    &_left{
+    &_left {
       padding: 0 $tooltip-arrow-width;
       margin-left: -$tooltip-margin;
 
@@ -491,19 +527,20 @@
         right: 0;
         margin-top: -$tooltip-arrow-width;
         content: "";
-        border-width: $tooltip-arrow-width 0 $tooltip-arrow-width $tooltip-arrow-width;
+        border-width: $tooltip-arrow-width 0 $tooltip-arrow-width
+          $tooltip-arrow-width;
         border-left-color: $tooltip-arrow-color;
       }
     }
 
-     // Wrapper for the tooltip content
+    // Wrapper for the tooltip content
     &-inner {
       max-width: 200px;
-      padding: 3px 8px;;
+      padding: 3px 8px;
       color: #fff;
       text-align: center;
       background-color: $tooltip-arrow-color;
-      border-radius:3px;
+      border-radius: 3px;
 
       &::before {
         position: absolute;
@@ -514,6 +551,4 @@
       }
     }
   }
-
-
 }

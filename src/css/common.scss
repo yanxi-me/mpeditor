@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 html {
@@ -17,4 +17,11 @@ select {
 body {
   font-size: 14px;
   line-height: 20px;
+}
+
+.mpe-preview {
+  max-width: 425px;
+  margin: 10px auto;
+  border: 2px solid #ccc !important;
+  border-radius: 10px;
 }
