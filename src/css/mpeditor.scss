@@ -219,11 +219,17 @@
         text-align: center !important;
       }
       h3 {
-        color: rgb(0, 150, 136) !important;
-        margin: 1.5em 5px !important;
-        padding: 0.5em 1em !important;
+        // color: rgb(0, 150, 136) !important;
+        // margin: 1.5em 5px !important;
+        // padding: 0.5em 1em !important;
         font-size: 18px;
-        text-align: center !important;
+        // text-align: center !important;
+
+        color: black !important;
+        text-align: left !important;
+        border-left: 4px solid #009688 !important;
+        padding: 2px 0 2px 0.5em !important;
+        margin: 1.5em 0 0.5em 0 !important;
       }
       h4,
       h5 {
