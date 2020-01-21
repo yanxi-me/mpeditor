@@ -67,11 +67,11 @@ echo 'hello,world'
 - MPEditor：[https://yanxi.me/mpeditor/](https://yanxi.me/mpeditor/)
 - wiki：[点击查看 wiki](https://github.com/yanxi-me/mpeditor)
 
-下面是个「财富秘书」的微信公众号二维码，欢迎扫描关注：
-![财富秘书](http://yanxi.me/public/img/qrcode_cfms.jpg)
+下面是个「阎说」的微信公众号二维码，欢迎扫描关注：
+![阎说](http://yanxi.me/public/img/qrcode_cfms.jpg)
 
 换个小点的头像
-![关注财富秘书](http://yanxi.me/public/img/qrcode_cfms.jpg =120x120)
+![关注阎说](http://yanxi.me/public/img/qrcode_cfms.jpg =120x120)
 
 ## 支持 emoji！
 
@@ -117,5 +117,5 @@ echo 'hello,world'
 --eof--
 本文结束
 
-[center]下面是个「财富秘书」的微信公众号二维码，欢迎扫描关注：
-![关注财富秘书](http://yanxi.me/public/img/qrcode_cfms.jpg)[/center]
+[center]下面是个「阎说」的微信公众号二维码，欢迎扫描关注：
+![关注阎说](http://yanxi.me/public/img/qrcode_cfms.jpg)[/center]
