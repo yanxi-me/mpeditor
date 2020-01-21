@@ -175,9 +175,10 @@
       p {
         font-size: $def-font-size;
         line-height: $def-line-height;
-        text-align: justify !important;
+        text-align: justify;
         min-height: 0 !important;
-        margin-bottom: 10px;
+        margin: 16px 0;
+        letter-spacing: 1px;
       }
       a {
         color: $def-link-color;
